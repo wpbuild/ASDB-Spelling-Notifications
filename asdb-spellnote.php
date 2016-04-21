@@ -84,17 +84,23 @@ if (!function_exists('spellnote_load') && !function_exists('spellnote_load_textd
 
 				add_filter('plugin_action_links', array(&$this, 'plugin_action_links'), 10, 2 );
 				add_action('parse_request', array(&$this, 'notification_window'));
-				if  ($this->form_place == 'yes') {
-					add_filter('the_content', array(&$this, 'spellnote_banner'));
-				}
+					if  ($this->form_place == 'yes') {
+						add_filter('the_content', array(&$this, 'spellnote_banner'));
+					}
 				return true;
 			}
 
 			public function spellnote_banner($content) {
     			if( is_single() ) {
-					$content.= '<div class="spellnote">';
-					$content.= __( 'Found error in text? Select it and press <span>Ctrl</span> + <span>Enter</span>', 'asdb-spellnote' );
-					$content.= '</div>';
+    				$this->get_settings();
+					if  ($this->form_style == 'img') {
+						$content.= '<a href="http://wpbuild.ru/spelling-notifications/" target="_blank"><img title="'.esc_html($this->fields["plugin_name"]).'" alt="'.esc_html($this->fields["plugin_name"]).'" src="'.plugins_url('/images/asdbspellnote.png', __FILE__).'" border="0" width="95" height="95"></a>';
+					} else {
+
+						$content.= '<div class="spellnote">';
+						$content.= __( 'Found error in text? Select it and press <span>Ctrl</span> + <span>Enter</span>', 'asdb-spellnote' );
+						$content.= '</div>';
+					}
 				}
 				return $content;
 			}
@@ -320,11 +326,11 @@ if (!function_exists('spellnote_load') && !function_exists('spellnote_load_textd
 								<body style="font-size: 13px; margin: 5px; color: #333333; line-height: 25px; font-family: Verdana, Arial, Helvetica">
 								'.$dt.'<br><br>
 								<strong>'.esc_html($this->fields["email_web"]).':</strong> &#160;<a style="color:#007cb9" href='.$url.'>'.$url.'</a>
-								<br>
+								<br><br><br>
 								<strong>'.esc_html($this->fields["email_error"]).':</strong><br>---------<br>'.str_replace("<strong>", "<strong style='color:red'>", $spl).(!mb_strpos($spl, '</strong>')?'</strong>':'').'
-								<br>
+								<br><br><br>
 								<strong>'.esc_html($this->fields["email_message"]).':</strong><br>---------<br>'.$message.'
-								<br><br>
+								<br><br><br><br>
 								<strong>'.esc_html($this->fields["email_user"]).':</strong> '.str_replace(',  ,', ', ', $user).'
 								<br>
 								<strong>'.esc_html($this->fields["email_ip"]).':</strong> <a style="color:#007cb9" href="http://myip.ms/info/whois'.(filter_var($_SERVER['REMOTE_ADDR'], FILTER_VALIDATE_IP, FILTER_FLAG_IPV6)?'6':'').'/'.esc_html($_SERVER['REMOTE_ADDR']).'">'.esc_html($_SERVER['REMOTE_ADDR']).'</a>
