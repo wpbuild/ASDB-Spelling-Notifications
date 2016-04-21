@@ -15,7 +15,7 @@ ASDB Spelling Notifications (Ctrl+Enter)
 
 Страница настроек плагина
 -------------------------------
-# ![Settings Page](http://wpbuild.ru/wp-content/uploads/2016/04/screenshot-2png)
+# ![Settings Page](http://wpbuild.ru/wp-content/uploads/2016/04/screenshot-2.png)
 
 При нажатии CTRL+Enter на странице сайта
 -------------------------------
