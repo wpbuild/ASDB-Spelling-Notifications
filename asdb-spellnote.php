@@ -320,11 +320,11 @@ if (!function_exists('spellnote_load') && !function_exists('spellnote_load_textd
 								<body style="font-size: 13px; margin: 5px; color: #333333; line-height: 25px; font-family: Verdana, Arial, Helvetica">
 								'.$dt.'<br><br>
 								<strong>'.esc_html($this->fields["email_web"]).':</strong> &#160;<a style="color:#007cb9" href='.$url.'>'.$url.'</a>
-								<br><br><br>
+								<br>
 								<strong>'.esc_html($this->fields["email_error"]).':</strong><br>---------<br>'.str_replace("<strong>", "<strong style='color:red'>", $spl).(!mb_strpos($spl, '</strong>')?'</strong>':'').'
-								<br><br><br>
+								<br>
 								<strong>'.esc_html($this->fields["email_message"]).':</strong><br>---------<br>'.$message.'
-								<br><br><br><br>
+								<br><br>
 								<strong>'.esc_html($this->fields["email_user"]).':</strong> '.str_replace(',  ,', ', ', $user).'
 								<br>
 								<strong>'.esc_html($this->fields["email_ip"]).':</strong> <a style="color:#007cb9" href="http://myip.ms/info/whois'.(filter_var($_SERVER['REMOTE_ADDR'], FILTER_VALIDATE_IP, FILTER_FLAG_IPV6)?'6':'').'/'.esc_html($_SERVER['REMOTE_ADDR']).'">'.esc_html($_SERVER['REMOTE_ADDR']).'</a>
