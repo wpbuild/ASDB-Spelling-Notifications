@@ -1,9 +1,9 @@
-=== ASDB Spelling Notifications ===
+# ASDB Spelling Notifications
 Contributors: wpbuild.ru
 Plugin Name: ASDB Spelling Notifications
 Plugin URI: http://wpbuild.ru/spelling-notifications/
 Author URI: http://tkacheff.ru
-Tags: spelling, grammar, spell checker, spelling checker, grammatical, punctuation, notifications, webmaster, google spell, spell check, spellcheck, feedback, feedback form, form, contact form, custom form, customer request, contact us, form to email, email, request, survey, surveys, auto reply, report, report form, error, error form, error notification, notifications, bitcoin, mail, send, email form, wordpress, paycoin, report error
+Tags: spelling, grammar, spell checker, spelling checker, grammatical, punctuation, notifications, webmaster, spell check, spellcheck, error notification, notifications, wordpress
 Requires at least: 3.5
 Tested up to: 4.5
 Stable Tag: 1.0.1
