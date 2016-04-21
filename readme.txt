@@ -1,5 +1,4 @@
-# ASDB-Spelling-Notifications
-
+=== ASDB Spelling Notifications ===
 Contributors: wpbuild.ru
 Plugin Name: ASDB Spelling Notifications
 Plugin URI: http://wpbuild.ru/spelling-notifications/

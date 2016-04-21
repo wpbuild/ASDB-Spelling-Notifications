@@ -1,0 +1,28 @@
+.container{margin-top:20px;font-family:arial;}
+a {font-size:14px;}
+#m strong {color:red}
+.close {}
+.close a {text-decoration: none; padding: 5px 8px;position: absolute;right: 5px;top: 15px;border: 1px solid #ccc;border-radius: 5px;}
+.close a:hover {background:#ccc;}
+.close a span {color:red;font-weight:bold;font-size:14px;}
+.button {color: #fff;padding:8px 15px;border:0;cursor:pointer;}
+.danger {background: #d15b47;}
+.danger:hover {background-color: #b3402d;}
+.success {background-color: #82af6f;}
+.success:hover {background-color: #659352;}
+.alert {background: #f0ad4e;}
+.alert-panel {background:rgba(240, 173, 78, 0.4);padding:10px; font-size:14px; margin:15px 0;}
+label {margin: 10px 0 5px;}
+textarea, input.form-control {line-height: 18px;width: 100%;clear: both; border: 1px solid #ccc; margin: 5px 0;}
+#splwin {
+background-image:url(images/bg.png);position:absolute;margin:auto;top:0;left:0;z-index:999;width:100%;}
+* html #splwin {background-image:none;}
+#splwin #splwindow {position:absolute;background:#fff;border-radius:10px;overflow:auto;width:500px;height:auto;z-index:150;padding:4px;border:1px solid #ccc;
+-o-box-shadow: 0 0 10px #999;
+-moz-box-shadow: 0 0 10px #999;
+-webkit-box-shadow: 0 0 10px #999;
+box-shadow: 0  0 10px #999;}
+#splwin #splframe {border:0;overflow:auto;width:100%;height:450px;}
+* html #splwin #splframe {margin-top:7px;}
+.spellnote {color: #5f6062;font-size: 12px;width: 90%;max-width: 1092px;min-width: 819px;margin-left: auto;margin-right: auto;margin-top: 10px;margin-bottom: 25px;}
+.spellnote span {background: #fff;font-size:11px;border:1px solid #9c9c9c;border-radius: 2px;padding:0 3px;}

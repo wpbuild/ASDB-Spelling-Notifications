@@ -1,0 +1,177 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Webmaster Spelling Notifications\n"
+"POT-Creation-Date: 2015-05-28 12:00-0000\n"
+"PO-Revision-Date: 2016-04-21 16:18+0600\n"
+"Last-Translator: Mikhail Tkachev aka kitassa <www@artstorm.su>\n"
+"Language-Team: \n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+msgid "The plugin allows site visitors to send reports to the webmaster / website owner about any spelling or grammatical errors which may be found by readers. Visitors should select text with a mouse, press Ctrl+Enter, enter comments and the webmaster will be notified about any such errors."
+msgstr "Плагин позволяет посетителям сайта посылать отчеты веб-мастеру/ владельцу веб-сайта о любых орфографических или грамматических ошибках, которые могут быть найдены читателями. Посетитель должен выбрать текст с помощью мыши, нажать Ctrl + Enter, ввести комментарий и веб-мастер получит уведомление об этой ошибке."
+
+msgid "Spelling or Grammar Error"
+msgstr "Орфографическая или грамматическая ошибка"
+
+msgid "Webpage"
+msgstr "Веб-страница"
+
+msgid "Describe the error and offer a solution"
+msgstr "Опишите ошибку и предложите решение"
+
+msgid "Send to Author"
+msgstr "Отправить автору"
+
+msgid "Cancel"
+msgstr "Отменить"
+
+msgid "Close Window"
+msgstr "Закрыть окно"
+
+msgid "ASDB Spelling Notifications (Ctrl+Enter)"
+msgstr "ASDB Spelling Notifications (Ctrl+Enter)"
+
+msgid "ASDB Spelling Notifications"
+msgstr "ASDB Spelling Notifications"
+
+msgid "Please select no more than 400 characters!"
+msgstr "Пожалуйста, выберите не более чем 400 символов!"
+
+msgid "Please select the spelling error!"
+msgstr "Пожалуйста, выделите орфографическую ошибку!"
+
+msgid "Thank you! Your message has been successfully sent, we highly appreciate your support!"
+msgstr "Спасибо! Ваше сообщение было успешно отправлено, мы высоко ценим вашу поддержку!"
+
+msgid "Error! Message not sent, Please try again!"
+msgstr "Ошибка! Сообщение не отправлено, попробуйте еще раз!"
+
+msgid "Spelling Error on %s"
+msgstr "Орфографическая ошибка в %s"
+
+msgid "Error"
+msgstr "Ошибка"
+
+msgid "Message"
+msgstr "Сообщение"
+
+msgid "User"
+msgstr "Пользователь"
+
+msgid "IP"
+msgstr "IP"
+
+msgid "User Agent"
+msgstr "User Agent"
+
+msgid "Settings"
+msgstr "Настройки"
+
+msgid "Settings: ASDB Spelling Notifications"
+msgstr "Настройки: ASDB Spelling Notifications"
+
+msgid "Found error in text? Select it and press <span>Ctrl</span> + <span>Enter</span>"
+msgstr "Нашли ошибку в тексте? Выделите ее и нажмите <span>Ctrl</span> + <span>Enter</span>"
+
+msgid "Settings has been restored <strong>successfully</strong>"
+msgstr "Настройки были восстановлены <strong>успешно</strong>"
+
+msgid "Settings has been saved <strong>successfully</strong>"
+msgstr "Настройки были сохранены <strong>успешно</strong>"
+
+msgid "<b>Ready to use:</b> &#160; Select any text on webpage and press CTRL+ENTER on your keyboard"
+msgstr "<b>Использование:</b> &#160;  Выберите любой текст на странице и нажмите CTRL + ENTER на клавиатуре"
+
+msgid "Plugin Homepage"
+msgstr "Домашняя страница"
+
+msgid "screenshots"
+msgstr "скриншоты"
+
+msgid "Plugin on Github - 100% Free Open Source"
+msgstr "Плагин на Github - 100% открытый исходный код"
+
+msgid "The plugin allows site visitors to send reports to the webmaster / website owner about any spelling or grammatical errors which may be found by readers."
+msgstr "Плагин позволяет посетителям сайта посылать отчеты веб-мастеру/ владельцу веб-сайта о любых орфографических или грамматических ошибок, которые могут быть найдены читателями."
+
+msgid "Visitors should select text with a mouse, press Ctrl+Enter, enter comments and the webmaster will be notified about any such errors."
+msgstr "Посетитель должен выбрать текст с помощью мыши, нажать Ctrl + Enter, ввести комментарий и веб-мастер получит уведомление об этой ошибке."
+
+msgid "Email From:"
+msgstr "Email от кого:"
+
+msgid "Please enter email address"
+msgstr "Введите адрес электронной почты"
+
+msgid "Email To:"
+msgstr "Email получателя:"
+
+msgid "Please enter your email address for spelling error notifications"
+msgstr "Введите ваш адрес электронной почты для получения уведомлений об орфографических ошибках"
+
+msgid "Style:"
+msgstr "Стиль:"
+
+msgid "Text"
+msgstr "Текст"
+
+msgid "Banner style (Picture or Text)"
+msgstr "Стиль вывода уведомления (Картинка или текст)"
+
+msgid "Automatically place (Ctrl+Enter) after content on single page"
+msgstr "Поместить напоминание (Ctrl+Enter) после контента на страницах постов"
+
+msgid "Banner"
+msgstr "Банер"
+
+msgid "Banner:"
+msgstr "Картинка"
+
+msgid "Text:"
+msgstr "Текст"
+
+msgid "Copy and paste the banner code to the bottom of your webpages. <a target='_blank' href='%s'>More info</a>"
+msgstr "Скопируйте и вставьте код баннера вниз веб-страниц. <a target='_blank' href='%s'>Подробнее</a>"
+
+msgid "Text Localization and customization (optional)"
+msgstr "Локализация текста и настройки (необязательно)"
+
+msgid "Default:"
+msgstr "По умолчанию:"
+
+msgid "Save Settings"
+msgstr "Сохранить настройки"
+
+msgid "Restore Default"
+msgstr "Восстановить значения по умолчанию"
+
+msgid "See our other free plugin (monetize your website) -"
+msgstr "Смотрите наш другой плагин (монетизирование вашего сайта) -"
+
+msgid "Guest"
+msgstr "Гость"
+
+msgid "If you like <b>ASDB Spelling Notifications</b> please leave us a %s rating on %s."
+msgstr "Если вам понравился <b>ASDB Spelling Notifications</b> пожалуйста, оставьте нам рейтинг %s на %s."
+
+#~ msgid "Default: "
+#~ msgstr "По умолчанию:"
+
+#~ msgid "Agent"
+#~ msgstr "Агент"
+
+#~ msgid "The plugin allows site visitors to send reports to the webmaster / website owner about any spelling or grammatical errors which may be found by readers. "
+#~ msgstr "Плагин позволяет посетителям сайта посылать отчеты веб-мастеру/ владельцу веб-сайта о любых орфографических или грамматических ошибок, которые могут быть найдены читателями."
+
+#~ msgid "<b>Ready to use:</b> &#160; Select any text on this webpage and press CTRL+ENTER on your keyboard :)"
+#~ msgstr "<b>Использование:</b>   Выберите любой текст на этой странице и нажмите CTRL + ENTER на клавиатуре :)"

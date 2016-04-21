@@ -1,0 +1,176 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Webmaster Spelling Notifications\n"
+"POT-Creation-Date: 2016-04-18 14:00-0000\n"
+"PO-Revision-Date: 2016-04-18 14:00-0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+
+
+msgid "The plugin allows site visitors to send reports to the webmaster / website owner about any spelling or grammatical errors which may be found by readers. Visitors should select text with a mouse, press Ctrl+Enter, enter comments and the webmaster will be notified about any such errors."
+msgstr ""
+
+msgid "Spelling or Grammar Error"
+msgstr ""
+
+msgid "Webpage"
+msgstr ""
+
+msgid "Describe the error and offer a solution"
+msgstr ""
+
+msgid "Send to Author"
+msgstr ""
+
+msgid "Cancel"
+msgstr ""
+
+msgid "Close Window"
+msgstr ""
+
+msgid "Webmaster Spelling Notifications"
+msgstr ""
+
+msgid "Please select no more than 400 characters!"
+msgstr ""
+
+msgid "Please select the spelling error!"
+msgstr ""
+
+msgid ""
+"Thank you! Your message has been successfully sent, we highly appreciate "
+"your support!"
+msgstr ""
+
+msgid "Error! Message not sent, Please try again!"
+msgstr ""
+
+msgid "Spelling Error on %s"
+msgstr ""
+
+msgid "Error"
+msgstr ""
+
+msgid "Message"
+msgstr ""
+
+msgid "User"
+msgstr ""
+
+msgid "IP"
+msgstr ""
+
+msgid "User Agent"
+msgstr ""
+
+msgid "Settings"
+msgstr ""
+
+msgid "ASDB Spelling Notifications (Ctrl+Enter)"
+msgstr ""
+
+msgid "ASDB Spelling Notifications"
+msgstr ""
+
+msgid "Settings: ASDB Spelling Notifications"
+msgstr ""
+
+msgid "Settings has been restored <strong>successfully</strong>"
+msgstr ""
+
+msgid "Found error in text? Select it and press <span>Ctrl</span> + <span>Enter</span>"
+msgstr ""
+
+msgid "Settings has been saved <strong>successfully</strong>"
+msgstr ""
+
+msgid ""
+"<b>Ready to use:</b> &#160; Select any text on webpage and press CTRL+ENTER "
+"on your keyboard"
+msgstr ""
+
+msgid "Plugin Homepage"
+msgstr ""
+
+msgid "screenshots"
+msgstr ""
+
+msgid "Plugin on Github - 100% Free Open Source"
+msgstr ""
+
+msgid ""
+"The plugin allows site visitors to send reports to the webmaster / website "
+"owner about any spelling or grammatical errors which may be found by readers."
+msgstr ""
+
+msgid ""
+"Visitors should select text with a mouse, press Ctrl+Enter, enter comments "
+"and the webmaster will be notified about any such errors."
+msgstr ""
+
+msgid "Email From:"
+msgstr ""
+
+msgid "Please enter email address"
+msgstr ""
+
+msgid "Email To:"
+msgstr ""
+
+msgid "Please enter your email address for spelling error notifications"
+msgstr ""
+
+msgid "Style:"
+msgstr ""
+
+msgid "Shadow"
+msgstr ""
+
+msgid "No Shadow"
+msgstr ""
+
+msgid "Banner style (Picture or Text)"
+msgstr ""
+
+msgid "Banner"
+msgstr ""
+
+msgid ""
+"Copy and paste the banner code to the bottom of your webpages. <a "
+"target='_blank' href='%s'>More info</a>"
+msgstr ""
+
+msgid "Text Localization and customization (optional)"
+msgstr ""
+
+msgid "Default:"
+msgstr ""
+
+msgid "Save Settings"
+msgstr ""
+
+msgid "Restore Default"
+msgstr ""
+
+msgid "See our other free plugin (monetize your website) -"
+msgstr ""
+
+msgid "Guest"
+msgstr ""
+
+msgid "If you like <b>ASDB Spelling Notifications</b> please leave us a %s rating on %s."
+msgstr ""
