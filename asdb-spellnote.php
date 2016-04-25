@@ -220,7 +220,7 @@ if (!function_exists('spellnote_load') && !function_exists('spellnote_load_textd
 				$assa .= "<tr valign='top'>";
 				$assa .= "<th colspan='2'>";
 				$assa .= __('<b>Ready to use:</b> &#160; Select any text on webpage and press CTRL+ENTER on your keyboard', 'asdb-spellnote') . "<br><br>";
-				$assa .= "<a target='_blank' href='http://wpbuld.ru/spelling-notifications/'>".__( 'Plugin Homepage', 'asdb-spellnote' )."</a> &#160;&amp;&#160; <a target='_blank' href='http://wpbuld.ru/spelling-notifications/#screenshot'>".__( 'screenshots', 'asdb-spellnote' )." &#187;</a><br>";
+				$assa .= "<a target='_blank' href='http://wpbuild.ru/spelling-notifications/'>".__( 'Plugin Homepage', 'asdb-spellnote' )."</a> &#160;&amp;&#160; <a target='_blank' href='http://wpbuild.ru/spelling-notifications/#screenshot'>".__( 'screenshots', 'asdb-spellnote' )." &#187;</a><br>";
 				$assa .= "<a target='_blank' href='https://github.com/wpbuild/ASDB-Spelling-Notifications'>".__( 'Plugin on Github - 100% Free Open Source', 'asdb-spellnote' )." &#187;</a><br><br>";
 
 				$assa .= __('The plugin allows site visitors to send reports to the webmaster / website owner about any spelling or grammatical errors which may be found by readers.', 'asdb-spellnote').'<br>';
@@ -254,7 +254,7 @@ if (!function_exists('spellnote_load') && !function_exists('spellnote_load_textd
 				$assa .= "</tr>";
 
 //				if  ($this->form_style == 'banner') {
-				$banner_img = '<a href="http://wpbuld.ru/spelling-notifications/" target="_blank"><img title="'.esc_html($this->fields["plugin_name"]).'" alt="'.esc_html($this->fields["plugin_name"]).'" src="'.plugins_url('/images/asdbspellnote.png', __FILE__).'" border="0" width="95" height="95"></a>';
+				$banner_img = '<a href="http://wpbuild.ru/spelling-notifications/" target="_blank"><img title="'.esc_html($this->fields["plugin_name"]).'" alt="'.esc_html($this->fields["plugin_name"]).'" src="'.plugins_url('/images/asdbspellnote.png', __FILE__).'" border="0" width="95" height="95"></a>';
 				$assa .= "<tr id='banner_img' valign='top' height='200'>";
 				$assa .= "<th scope='row' width='150'><label><b>".__( 'Banner:', 'asdb-spellnote')."</b></label></th>";
 				$assa .= "<td><textarea rows='6' class='large-text' style='font-size:12px' readonly='readonly'>".esc_html($banner_img)."</textarea>";
@@ -262,7 +262,7 @@ if (!function_exists('spellnote_load') && !function_exists('spellnote_load_textd
 				$assa .= "</td><td> &#160; ".$banner_img."</td>";
 				$assa .= "</tr>";
 //				} else {
-				$banner_text = '<a href="http://wpbuld.ru/spelling-notifications/" target="_blank"><img title="'.esc_html($this->fields["plugin_name"]).'" alt="'.esc_html($this->fields["plugin_name"]).'" src="'.plugins_url('/images/spell-note.png', __FILE__).'" border="0" width="305" height="34"></a>';
+				$banner_text = '<a href="http://wpbuild.ru/spelling-notifications/" target="_blank"><img title="'.esc_html($this->fields["plugin_name"]).'" alt="'.esc_html($this->fields["plugin_name"]).'" src="'.plugins_url('/images/spell-note.png', __FILE__).'" border="0" width="305" height="34"></a>';
 				$assa .= "<tr id='banner_txt' valign='top' height='200'>";
 				$assa .= "<th scope='row' width='150'><label><b>".__( 'Text:', 'asdb-spellnote')."</b></label></th>";
 				$assa .= "<td> &#160; ".$banner_text."</td>";
