@@ -128,7 +128,7 @@ if (!function_exists('spellnote_load') && !function_exists('spellnote_load_textd
 			}
 
 			public function html_header() {
-				echo '<script type="text/javascript" charset="UTF-8">splnote_path="'.trim(site_url(),' /').'";splnote_txt1="'.esc_html($this->fields["form_message1"]).'";splnote_txt2="'.esc_html($this->fields["form_message2"]).'"</script>';
+				echo '<script type="text/javascript">splnote_path="'.trim(site_url(),' /').'";splnote_txt1="'.esc_html($this->fields["form_message1"]).'";splnote_txt2="'.esc_html($this->fields["form_message2"]).'"</script>';
 				echo '<script src="'.plugins_url('/js/asdb-spellnote.js', __FILE__).'" type="text/javascript"></script>';
 				echo '<link rel="stylesheet" type="text/css" href="'.plugins_url('/spellnote.css', __FILE__).'" media="all" />';
 				if ($this->fields["form_width"] != "500px") echo "<style>#splwin #splwindow {width:".esc_html($this->fields["form_width"])."}</style>";
